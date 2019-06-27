@@ -38,7 +38,7 @@ Install Python : Before cloning this repo and running it make sure you have pyth
         python app.py ./config.json -d PATH_TO_DIRECTORY -o OUT_DIR
  
 ## Working
-* The given fabric image is resized to the dimensions of the stencil
+* The given fabric image is resized. The width is resized to the width of the shirt in the endo stencil and the height is calculated accordingly to maintain aspect ratio
 * A blank image with the dimensions of the stencils is created.
 * The fabric image is placed at the point where the and the topmost left most part of the cartoon in the stencil meets. This point is hardcoded in the code and all stencils start at have the same structure.
 * The stencil is super imposed on the above created image.
