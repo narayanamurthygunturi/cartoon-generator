@@ -1,0 +1,21 @@
+{
+    "body_types":["endo", "ecto", "meso"],
+    "skin_types":["fair", "dark", "wheatish"],
+    "stencils":{
+        "endo":{
+            "fair":"./2D cartoons/Endo/Endo_fair.png",
+            "dark":"./2D cartoons/Endo/Endo_dark_padded.png",
+            "wheatish":"./2D cartoons/Endo/Endo_wheatish_padded.png"
+        },
+        "ecto":{
+            "fair":"./2D cartoons/Ecto/Ecto_fair.png",
+            "dark":"./2D cartoons/Ecto/Ecto_dark_padded.png",
+            "wheatish":"./2D cartoons/Ecto/Ecto_wheatish_padded.png"
+        },
+        "meso":{
+            "fair":"./2D cartoons/Meso/Meso_Fair_Padded.png",
+            "dark":"./2D cartoons/Meso/Meso_Dark_Padded.png",
+            "wheatish":"./2D cartoons/Meso/Meso_Fair_Padded.png"
+        }
+    }
+}
