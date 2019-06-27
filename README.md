@@ -35,7 +35,7 @@ Install Python : Before cloning this repo and running it make sure you have pyth
   
   * To store all cartoons in a output directory
         
-        python app.py ./config.json -d PATH_TO_DIRECTORY
+        python app.py ./config.json -d PATH_TO_DIRECTORY -o OUT_DIR
  
 ## Working
 * The given fabric image is resized to the dimensions of the stencil
